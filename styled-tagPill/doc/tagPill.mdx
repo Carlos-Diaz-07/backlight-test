@@ -1,0 +1,44 @@
+import { mdx } from '@mdx-js/react';
+import { TagPill } from '../index';
+import { Props, Description } from '@divriots/dockit-react/props';
+import { Playground } from '@divriots/dockit-react/playground';
+import { Layout } from '~/styled-utils';
+export default Layout;
+
+# TagPill
+
+<Description of={TagPill} />
+
+## Usage
+
+```tsx
+
+export const TagPills = () => (
+<TagPill primary>Primary</TagPill>
+<TagPill secondary>Secondary</TagPill>
+<TagPill disabled>Disabled</TagPill>
+<TagPill excluded>Excluded</TagPill>
+<TagPill positive>Positive</TagPill>
+<TagPill neutral>Neutral</TagPill>
+<TagPill negative>Negative</TagPill>
+);
+```
+
+## Example
+
+<Playground
+  scope={{ TagPill }}
+  code={`
+<TagPill primary>Primary</TagPill>
+<TagPill secondary>Secondary</TagPill>
+<TagPill disabled>Disabled</TagPill>
+<TagPill excluded>Excluded</TagPill>
+<TagPill positive>Positive</TagPill>
+<TagPill neutral>Neutral</TagPill>
+<TagPill negative>Negative</TagPill>
+`}
+/>
+
+## Props
+
+<Props of={TagPill} />

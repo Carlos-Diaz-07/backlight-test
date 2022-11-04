@@ -1,0 +1,44 @@
+{
+ "packages": {
+  "dir": "",
+  "menu": [
+   "readme",
+   [
+    "tokens",
+    [
+     "typography",
+     "colors",
+     "space",
+     "sizes",
+     "shadows",
+     "radii",
+     "border",
+     "z-index",
+     "all"
+    ]
+   ],
+   [
+    "theme-ui",
+    [
+     "tui-button",
+     "tui-utils",
+     "tui-tagPill"
+    ]
+   ],
+   [
+    "styled-components",
+    [
+     "styled-button",
+     "styled-utils",
+     "styled-tagPill"
+    ]
+   ],
+   [
+    "dockit",
+    [
+     "layout"
+    ]
+   ]
+  ]
+ }
+}
